@@ -2,7 +2,7 @@
 layout: post
 title:  "Asimov et le faust scientifique moderne"
 subtitle: "This is the post subtitle."
-background: 'https://miro.medium.com/max/620/1*ZFcMZU_NT7Jw5EA24y5joQ.png'
+background: '/img/posts/03.png'
 date:   2021-12-16 17:47:19 +0000
 ---
 Après une quête de plus d'une décennie, j'ai enfin pu mettre la main sur une copie physique d'un livre de Isaac Asimov. ça n'a rien d'extraordinaire en soi me direz vous, mais les livres de Asimov sont une denrée rare par ici , à tel point que je m'était résolu à me contenter des versions numériques. Mettre la main sur ce livre m'aura permis de redécouvrir l'auteur avec un regard neuf et plus aiguisé mais surtout permis d'enfin pouvoir décrire de façon plus claire ce qui rend Asimov si spécial à mes yeux. Mais avant tout propos, permettez-moi de  retourner au tout début, là où tout a commencer...  

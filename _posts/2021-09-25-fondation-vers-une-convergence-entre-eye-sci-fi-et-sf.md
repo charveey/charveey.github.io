@@ -2,7 +2,7 @@
 layout: post
 title:  "Fondation : vers une convergence entre “eye-sci-fi” et s.f. ?"
 subtitle: "La nouvelle série de David S. Goyer arrivera-t-elle à faire le pont entre les audiences modernes et l'oeuvre de Isaac Asimov ?"
-background: 'https://miro.medium.com/max/3840/1*N9rgPSKinuU8Kb_inCpSDg.jpeg'
+background: '/img/posts/02.jpg'
 date:   2021-09-24 09:47:59 +0000
 ---
 

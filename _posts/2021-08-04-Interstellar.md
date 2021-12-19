@@ -2,7 +2,7 @@
 layout: post
 title:  "Comment Interstellar de Christopher Nolan"
 subtitle: "This is the post subtitle."
-background: 'https://wallpaperaccess.com/full/300668.png'
+background: '/img/posts/01.webp'
 date:   2021-08-04 21:37:09 +0000
 ---
 
