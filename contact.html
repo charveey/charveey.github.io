@@ -1,44 +1,36 @@
 ---
 layout: page
-title: Contact Me
-description: Have questions? I have answers.
+title: Contactez-moi
+description: Des questions ? N'hésitez pas à me contacter
 background: '/img/bg-contact.jpg'
 form: true
 ---
-
-<p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form name="sentMessage" id="contactForm" novalidate>
+<p>Remplissez le formulaire ci-dessous pour me laisser un message, je vous reponds dès que possible !</p>
+<form id="contactform" name="sentMessage" id="contactForm" action="https://formspree.io/f/mqknkwel" method="POST">
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Name</label>
-      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+      <input type="text" name="name" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Renseignez votre nom svp.">
       <p class="help-block text-danger"></p>
     </div>
   </div>
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Email Address</label>
-      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group col-xs-12 floating-label-form-group controls">
-      <label>Phone Number</label>
-      <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+      <input type="email" name="email" class="form-control" placeholder="Adresse e-mail" id="email" required data-validation-required-message="Renseignez votre adresse e-mail svp.">
       <p class="help-block text-danger"></p>
     </div>
   </div>
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Message</label>
-      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+      <textarea rows="5" class="form-control" placeholder="Message" name="message" id="message" required data-validation-required-message="Laissez un messsage svp."></textarea>
       <p class="help-block text-danger"></p>
     </div>
   </div>
   <br>
   <div id="success"></div>
   <div class="form-group">
-    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+    <input type="submit" class="btn btn-primary" value="Envoyer">
   </div>
 </form>
