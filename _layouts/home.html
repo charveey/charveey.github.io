@@ -48,7 +48,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             le
-            {{ post.date | date: '%d %b, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            {% include date.html date=post.date %} &middot; {% include read_time.html content=post.content %}            
           </p>
         </article>
 
