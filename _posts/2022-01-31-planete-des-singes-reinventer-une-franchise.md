@@ -1,11 +1,9 @@
 ---
----
 layout: post
 title:  "La planète des singes : les origines  —  Réinventer une franchise tombée dans l’oubli"
 subtitle: "Dans cette séries de trois (03) articles, nous reviendrons sur les qualités qui "
-background: '/img/posts/apes-cover.jpg'
+baccdkground: '/img/posts/apes-cover.jpg'
 date:   2022-01-24 09:03:59 +0000
-​---
 ---
 
 Si ***Planet of the Apes*** a captivé notre imagination aussi longtemps, c’est parce qu’elle nous renvoie notre propre image sans aucun filtre, elle nous confronte aux travers de notre société. Les singes ne ségréguaient pas les autres singes en fonction de la notion de race. Les singes n’ont pas construit des armes nucléaires capables de détruire le monde sur la base de décisions d‘une poignée individus. Les films originaux ***Planet of the Apes*** ont été réalisés à la fin des années 60 et au début des années 70, au sortir d’une décennie tumultueuse. C’était une époque où les gens, à grande échelle, commençaient à vraiment prendre conscience des horreurs dont l’humanité était capable. Les visions idéalisées de la société des années 50 et du début des années 60 commençaient à s’effacer pour laisser apparaître les réalités persistantes et le mal sous-jacent. Ces films se caractérisaient par le cynisme porté à l’égard de l’espèce humaine et sa propension à s’autodétruire. Pensez à la fin iconique du film original, cette image provocante de la statue de la Liberté ensevelie, rongée par la rouille et en décomposition. Après tout, l’idée maîtresse du film était que la planète des singes n’était pas une autre planète, mais une terre dévastée par une guerre nucléaire menée par l’humanité.
