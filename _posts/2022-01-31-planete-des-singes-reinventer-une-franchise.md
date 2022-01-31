@@ -26,3 +26,5 @@ Après le succès retentissant des premiers films, la franchise est progressivem
 
 ***Rise of the Planet of the Apes*** (intitulé *La Planète des singes : Les Origines* dans l’Hexagone), réalisé par Rupert Wyatt a réussi là où son prédécesseur a échoué. Le film aura permis à la franchise de renouer avec le succès non seulement auprès des critiques et du public mais aussi au box-office. ***Rise of the Planet of the Apes*** est le premier film d’une trilogie de films que j’apprécie particulièrement, des films qui bousculent le *statu quo* de ce que les superproductions Hollywoodiennes peuvent faire, dire et être. Des films qui abordent avec brio les thèmes de l’oppression, de l’identité et du conflit, qui s’interrogent sur le sens même que nous donnons à l’humanité.
 Pour comprendre ce qui rend ce film si spécial, il faut expliquer comment il a non seulement réussi à relancer une franchise vieille de plusieurs décennies, mais aussi à l’améliorer et à en élargir la portée.
+
+
