@@ -2,7 +2,7 @@
 layout: post
 title:  "Réinventer La Planète des Singes - Les origines"
 subtitle: "Dans cette séries de trois (03) articles, nous reviendrons sur les qualités qui "
-background: '/img/posts/apes-cover.jpg'
+background: '/img/bg/bg-apes.jpg'
 date:   2022-01-24 09:03:59 +0000
 ---
 
