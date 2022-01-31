@@ -12,7 +12,6 @@ Si ***Planet of the Apes*** a captivé notre imagination aussi longtemps, c’es
 
 Depuis les premiers pas de la franchise sur grand écran, les singes dans les films n’ont jamais été pensés comme une allégorie à quelque chose de bien précis. Il a toujours été question de ce concept fou : *Que se passerait-il si en lieu et place de l’Homme les singes étaient l’espèce dominante sur Terre ?* A vrai dire, rien de radicalement différent. La réponse n’est pas aussi excitante que je l’avais imaginé quand j’étais plus jeune et que je découvrais  pour la première fois cette franchise. Cependant, le changement de perspective n’était pas du tout fortuit. Ce n’était qu’un prétexte pour faire une critique du rapport de notre société à certains concepts comme la guerre, la religion, la race. En somme, une déconstruction de l’arrogance humaine à travers le prisme d’une société simienne souffrant des mêmes tares que la nôtre pour nous rappeler que l’homme n’est pas meilleur que le singe, que l’humanité n’est pas supérieure à la nature. Singe ou humain, peu importe, nous sommes tous des animaux.
 
-![](/img/posts/apes02.jpg)
 <img class="img-responsive" src="{{ site.baseurl }}/img/posts/apes02.jpg" alt="">
 
 
