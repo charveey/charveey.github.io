@@ -13,7 +13,7 @@ La science-fiction et moi, ça a donc été le coup de foudre direct. D'abord gr
 
 
 
-![](/img/posts/03a.jpg){: .mx-auto.d-block :}
+![img](/img/posts/03a.jpg){: .mx-auto.d-block :}
 
 
 
