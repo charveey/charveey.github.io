@@ -7,4 +7,11 @@ images:
 - bg-apes-768.jpg
 - bg-apes-640.jpg
 - bg-apes.jpg
+- bg-foundation-1920.jpg
+- bg-foundation-1600.jpg
+- bg-foundation-1366.jpg
+- bg-foundation-1024.jpg
+- bg-foundation-768.jpg
+- bg-foundation-640.jpg
+- bg-foundation.jpeg
 ---
