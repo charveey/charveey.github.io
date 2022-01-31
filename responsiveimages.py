@@ -3,7 +3,7 @@ import os
 import git
 import subprocess
 
-YAML_FILE = "processed.md"
+YAML_FILE = "compressed.md"
 FOLDERS = {
     "img/bg/":[1920,1600,1366,1024,768,640],
     "img/posts/":[1230,1024,874,655,560],
@@ -68,14 +68,14 @@ for folder in FOLDERS.keys():
         #We also want to create the smaller and larger sized resolutions
         if imagepath in staged_files:
 
-        	#Get the width of the image
-        	width = int(subprocess.check_output("identify -format \"%[w]\" " + imagepath, shell=True))
+            #Get the width of the image
+            width = int(subprocess.check_output("identify -format \"%[w]\" " + imagepath, shell=True))
 
             if image.endswith(".jpg") or image.endswith(".jpeg"):
                 #Generate all of the resized versions
                 for size in FOLDERS[folder]:
-                	newsizeimage = imagenoext + "-" + str(size) + ".jpg"
-        			newsizeimagepath = os.path.join(folder, newsizeimage)
+                    newsizeimage = imagenoext + "-" + str(size) + ".jpg"
+                    newsizeimagepath = os.path.join(folder, newsizeimage)
 
                     #If our image is say 800px wide, but we're asked to make it 1000px,
                     #obviously we're upsizing which is bad for storage space.
@@ -87,7 +87,7 @@ for folder in FOLDERS.keys():
                     else:
                         os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -resize " + str(size) + "x -quality 85 -interlace JPEG -colorspace RGB " + newsizeimagepath)
                     #Add the resized image
-                	images.append(newsizeimage);
+                    images.append(newsizeimage);
                     repo.git.add(newsizeimagepath)
                 #Optimise the original
                 os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB " + imagepath)
@@ -97,8 +97,8 @@ for folder in FOLDERS.keys():
 
                 #Generate all of the resized versions
                 for size in FOLDERS[folder]:
-                	newsizeimage = imagenoext + "-" + str(size) + ".png"
-        			newsizeimagepath = os.path.join(folder, newsizeimage)
+                    newsizeimage = imagenoext + "-" + str(size) + ".png"
+                    newsizeimagepath = os.path.join(folder, newsizeimage)
                     #Convert the image
                     if size > width:
                         #Just save the new file as an copy of the original
@@ -109,7 +109,7 @@ for folder in FOLDERS.keys():
                         #Also optimise it
                         os.system("optipng -quiet -o1 -strip all " + newsizeimagepath)
                     #Add the resized image
-                	images.append(newsizeimage);
+                    images.append(newsizeimage)
                     repo.git.add(newsizeimagepath)
             #Add the optimised original image
             repo.git.add(imagepath)
