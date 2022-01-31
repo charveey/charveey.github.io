@@ -83,14 +83,14 @@ for folder in FOLDERS.keys():
                     #Otherwise we upsize.
                     if size > width:
                         #Just save the new file as an optimisation of the original
-                        os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB " + newsizeimagepath)
+                        os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB " + newsizeimagepath)
                     else:
-                        os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -resize " + str(size) + "x -quality 85 -interlace JPEG -colorspace RGB " + newsizeimagepath)
+                        os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -resize " + str(size) + "x -quality 85 -interlace JPEG -colorspace sRGB " + newsizeimagepath)
                     #Add the resized image
                     images.append(newsizeimage);
                     repo.git.add(newsizeimagepath)
                 #Optimise the original
-                os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB " + imagepath)
+                os.system("convert " + imagepath + " -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB " + imagepath)
             elif image.endswith(".png"):
                 #Optimise the original
                 os.system("optipng -quiet -o1 -strip all " + imagepath);
