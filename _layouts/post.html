@@ -47,7 +47,7 @@ layout: default
 				<noscript><img src="{{ url }}" alt={{alt}} /></noscript>
 				<img class="lazy" data-src="{{ url }}" alt={{alt}}{{ rest }}
 			{%- else -%}
-			<noscript><img
+			<noscript><img 
 				srcset="{{ url-filename }}-560.{{ url-extension }} 560w,
 						{{ url-filename }}-655.{{ url-extension }} 655w,
 						{{ url-filename }}-874.{{ url-extension }} 874w,
@@ -56,9 +56,9 @@ layout: default
 				sizes="(max-width:499px) 82vw,
 						(max-width:799px) 88vw,
 						(max-width:999px) 76vw,
-						64vw"
+						64vw"  
 				src="{{ url }}" alt="{{ alt }}" /></noscript>
-						<img class="lazy"
+						<img class="lazy" 
 				data-src="{{ url }}"
 			data-srcset="{{ url-filename }}-560.{{ url-extension }} 560w,
 						{{ url-filename }}-655.{{ url-extension }} 655w,
@@ -80,7 +80,7 @@ layout: default
 				<noscript><img src="{{ url }}" /></noscript>
 				<img class="lazy" data-src="{{ url }}"{{ rest }}
 			{%- else -%}
-			<noscript><img
+			<noscript><img 
 				srcset="{{ url-filename }}-560.{{ url-extension }} 560w,
 						{{ url-filename }}-655.{{ url-extension }} 655w,
 						{{ url-filename }}-874.{{ url-extension }} 874w,
@@ -89,9 +89,9 @@ layout: default
 				sizes="(max-width:499px) 82vw,
 						(max-width:799px) 88vw,
 						(max-width:999px) 76vw,
-						64vw"
+						64vw"  
 				src="{{ url }}" alt="{{ alt }}" /></noscript>
-						<img class="lazy"
+						<img class="lazy" 
 				data-src="{{ url }}"
 			data-srcset="{{ url-filename }}-560.{{ url-extension }} 560w,
 						{{ url-filename }}-655.{{ url-extension }} 655w,
@@ -118,8 +118,21 @@ layout: default
           <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Suivant &rarr;</a>
           {% endif %}
 
+          
+
         </div>
 
       </div>
     </div>
   </div>
+<script>
+  (function(w, d){
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {};
+    b.appendChild(s);
+}(window, document));
+</script>
