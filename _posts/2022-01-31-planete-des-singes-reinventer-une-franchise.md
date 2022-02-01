@@ -21,9 +21,8 @@ Depuis les premiers pas de la franchise sur grand écran, les singes dans les fi
 
 Après le succès retentissant des premiers films, la franchise est progressivement tombée dans l’oubli à partir de la fin des années 70. Il y a eu quelques tentatives de transposer le succès de la franchise sur petit écran mais elles se sont toutes révélées infructueuses. Il faudra attendre jusqu’en 2001 pour voir une nouvelle itération de la franchise sur grand écran, réalisé par Tim Burton. Ce remake, pourtant prometteur a rencontré le rejet quasi unanime des critiques et  du grand public. Le film de Burton renonce à toutes les ambitions philosophiques du récit qui a inspiré les premiers films. Le film prend bien soin d’éviter le trouble en évacuant la dimension alarmiste du film originel, troquant ainsi questionnement de la condition humaine pour de l’action. Le but n’est pas de stimuler l’intellect du public, on veut avant tout lui en mettre plein les yeux. La recette du blockbuster Hollywoodien par excellence. Le spectaculaire prend ainsi le pas sur les dialogues. Le film fait  tout de même l’effort d’offrir quelques pistes de réflexion sur l’humanité et ce qui la distingue de l’animal, mais de façon très superficielle.
 
-{:refdef: style="text-align: center;"}
-![]({{ site.baseimg }}/img/posts/apes03.jpg)
-{: refdef}
+![](/img/posts/apes03.jpg)
+
 
 ***Planet of the Apes*** millésime 2001 vient s’ajouter à la longue liste des remakes, reboots, prequels ratés synonyme du déclin progressif d’un Hollywood en panne dramatique d’inspiration, persuadé d’avoir affaire à un public amnésique. Après cette tentative ratée, il a fallu se rendre à l’évidence, la franchise était condamnée à rester une relique d’une époque révolue. Mais contre toute attente, un nouvel opus fut annoncé pour 2011. 
 
