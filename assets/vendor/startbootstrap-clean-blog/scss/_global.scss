@@ -77,8 +77,8 @@ img::-moz-selection {
 
 img {
 
-    margin-left: 35px;
-    margin-right: 35px;
-    width: 92%;
+    width: 100%;
+    width: -moz-available;          /* For Mozzila */
+    width: -webkit-fill-available;  /* For Chrome */
 
 }
