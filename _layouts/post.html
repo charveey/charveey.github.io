@@ -18,13 +18,8 @@ layout: default
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
             <span class="meta">Publié par
-				{% if post.author %}
-				{{ post.author }}
-				{% else %}
-				{{ site.author }}
-				{% endif %}
-				le
-				{% include date.html date=post.date %} &middot; {% include read_time.html content=post.content %}
+              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
+              le {% include date.html date=post.date %} &middot; {% include read_time.html content=page.content %} </a>
             </span>
           </div>
         </div>
