@@ -74,7 +74,11 @@ img::-moz-selection {
     color: $white;
     background: transparent;
 }
+
 img {
-    margin-left: auto;
-    margin-right: auto;
-  }
+
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 92%;
+
+}
