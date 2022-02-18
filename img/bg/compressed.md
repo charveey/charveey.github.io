@@ -14,4 +14,11 @@ images:
 - bg-foundation-768.jpg
 - bg-foundation-640.jpg
 - bg-foundation.jpeg
+- bg-home-1920.jpg
+- bg-home-1600.jpg
+- bg-home-1366.jpg
+- bg-home-1024.jpg
+- bg-home-768.jpg
+- bg-home-640.jpg
+- bg-home.jpg
 ---
