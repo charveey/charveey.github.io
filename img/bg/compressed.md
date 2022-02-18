@@ -21,4 +21,11 @@ images:
 - bg-home-768.jpg
 - bg-home-640.jpg
 - bg-home.jpg
+- bg-interstellar-1920.jpg
+- bg-interstellar-1600.jpg
+- bg-interstellar-1366.jpg
+- bg-interstellar-1024.jpg
+- bg-interstellar-768.jpg
+- bg-interstellar-640.jpg
+- bg-interstellar.jpg
 ---
