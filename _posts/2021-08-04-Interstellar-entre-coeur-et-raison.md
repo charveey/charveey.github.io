@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Comment Interstellar de Christopher Nolan"
-subtitle: "This is the post subtitle."
-background: '/img/posts/01.webp'
+title:  "Interstellar : à la croisée des chemins entre le coeur et la raison"
+subtitle: "Dans cet article, je .... comment la thématique de Interstellar a faconné le cinéphile que je suis aujourd'hui."
+background: '/img/bg/bg-interstellar.jpg'
 date:   2021-08-04 21:37:09 +0000
 ---
 
+Depuis tout petit, j'étais animé d'une curiosité insatiable. Une curiosité qui m'a poussé à m'intéresser très jeune à des sujets complexes tels que la mécanique quantique et l'astronomie en parcourant les encyclopédies de ma tante. A peine j'entrais au collège que je m'étais déjà familiarisé avec les théories générale et restreinte de la relativité, le concept de pont d'Einstein-Rosen, le paradoxe de Fermi etc... J'étais tout autant fasciné par la possibilité de la vie ailleurs dans l'Univers que par le concept du voyage temporel. La science-fiction et moi, ça a donc été le coup de foudre direct. D'abord grâce à des films comme ***Rencontre du Troisième Type*** (1977), ***Contact*** (1997) ou ***La Machine à explorer le temps*** (2002) et plus tard à travers les livres. 
 
-Depuis tout petit, j'étais animé d'une curiosité insatiable. Une curiosité qui m'a poussé à m'intéresser très jeune à des sujets complexes tels que la mécanique quantique et l'astronomie en parcourant les encyclopédies de ma tante. A peine j'entrais au collège que je m'étais déjà familiarisé avec les théories générale et restreinte de la relativité, le concept de pont d'Einstein-Rosen, le paradoxe de Fermi etc...
-La science-fiction et moi, ça a donc été le coup de foudre direct. D'abord grâce à des films et plus tard à travers les livres. J'étais fasciné  par *Rencontre du Troisième Type* (1977), *Contact* (1997) ou *La Machine à explorer le temps* (2002). 
+
+
 Dans un futur très proche la terre se meurt. Plus rien ne pousse à part le maïs. La poussière recouvre tout petit à petit.
  Les gouvernements du monde se sont alliés pour faire face à la crise. Et tout les efforts se concentrent sur l'agriculture.
 L'avenir s'annonce sombre. Dans tous les cas l'humanité est foutue. Si c'est pas la famine, les maladies respiratoires liés à la poussière auront raison de l'espèce.
