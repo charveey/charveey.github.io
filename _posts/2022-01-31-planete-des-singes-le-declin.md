@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Réinventer la Planète des Singes — Les origines"
-subtitle: "Dans cette séries de trois (03) articles, nous reviendrons sur les qualités qui "
+title:  "Le Déclin de la Planète des Singes"
+subtitle: "Retour sur le succès d'une franchise extrêmement populaire à la fin des années 60 qui a lentement sombré dans l'oubli avant de renaître miraculeusement en 2011."
 background: '/img/bg/bg-apes.jpg'
 date:   2022-01-24 09:03:59 +0000
 ---
