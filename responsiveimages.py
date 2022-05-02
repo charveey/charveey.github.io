@@ -5,7 +5,7 @@ import subprocess
 
 YAML_FILE = "compressed.md"
 FOLDERS = {
-    "img/bg/":[1920,1600,1366,1024,768,640,480,320],
+    "img/bg/":[],
     "img/posts/":[960,768,640,480,320],
     "img/":[] #Do not make any additional sizes
     }
