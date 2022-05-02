@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Le Déclin de la Planète des Singes"
-subtitle: "Retour sur le succès d'une franchise extrêmement populaire à la fin des années 60 qui a lentement sombré dans l'oubli avant de renaître miraculeusement en 2011."
+subtitle: "Retour sur le succès de cette franchise emblématique de la fin des années 60 qui a lentement sombré dans l'oubli ..."
 background: '/img/bg/bg-apes.jpg'
 date:   2022-01-24 09:03:59 +0000
 ---
@@ -14,16 +14,13 @@ Si ***La Planète des Singes*** a captivé notre imagination aussi longtemps, c�
 
 Depuis les premiers pas de la franchise sur grand écran, les singes dans les films n’ont jamais été pensés comme une allégorie à quelque chose de bien précis. Il a toujours été question de ce concept fou : *Que se passerait-il si en lieu et place de l’Homme les singes étaient l’espèce dominante sur Terre ?* A vrai dire, rien de radicalement différent. La réponse n’est pas aussi excitante que je l’avais imaginé quand j’étais plus jeune et que je découvrais  pour la première fois cette franchise. Cependant, le changement de perspective n’était pas du tout fortuit. Ce n’était qu’un prétexte pour faire une critique du rapport de notre société à certains concepts comme la guerre, la religion, la race. En somme, une déconstruction de l’arrogance humaine à travers le prisme d’une société simienne souffrant des mêmes tares que la nôtre pour nous rappeler que l’homme n’est pas meilleur que le singe, que l’humanité n’est pas supérieure à la nature. Singe ou humain, peu importe, nous sommes tous des animaux.
 
-{:refdef: style="text-align: center;"}
 ![]({{ site.baseimg }}/img/posts/apes02.jpg)
-{: refdef}
 
 
 Après le succès retentissant des premiers films, la franchise est progressivement tombée dans l’oubli à partir de la fin des années 70. Il y a eu quelques tentatives de transposer le succès de la franchise sur petit écran mais elles se sont toutes révélées infructueuses. Il faudra attendre jusqu’en 2001 pour voir une nouvelle itération de la franchise sur grand écran, réalisé par Tim Burton. Ce remake, pourtant prometteur a rencontré le rejet quasi unanime des critiques et  du grand public. Le film de Burton renonce à toutes les ambitions philosophiques du récit qui a inspiré les premiers films. Le film prend bien soin d’éviter le trouble en évacuant la dimension alarmiste du film originel, troquant ainsi questionnement de la condition humaine pour de l’action. Le but n’est pas de stimuler l’intellect du public, on veut avant tout lui en mettre plein les yeux. La recette du blockbuster Hollywoodien par excellence. Le spectaculaire prend ainsi le pas sur les dialogues. Le film fait  tout de même l’effort d’offrir quelques pistes de réflexion sur l’humanité et ce qui la distingue de l’animal, mais de façon très superficielle.
 
-{:refdef: style="text-align: center;"}
+
 ![]({{ site.baseimg }}/img/posts/apes03.jpg)
-{: refdef}
 
 
 ***La Planète des Singes*** millésime 2001 vient s’ajouter à la longue liste des remakes, reboots, prequels ratés synonyme du déclin progressif d’un Hollywood en panne dramatique d’inspiration, persuadé d’avoir affaire à un public amnésique. Après cette tentative ratée, il a fallu se rendre à l’évidence, la franchise était condamnée à rester une relique d’une époque révolue. Mais contre toute attente, un nouvel opus fut annoncé pour 2011. 

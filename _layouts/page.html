@@ -27,8 +27,92 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        {{ content }}
+        {%- assign pieces = content | split: '<img src="' -%}
+{%- for piece in pieces -%}
+	{%- if forloop.first == true -%}
+		{{ piece }}
+	{%- else -%}
+		{%- if piece contains '" alt="' -%}
+			{%- assign url = piece | split: '" alt="' | first -%}
+			{%- assign alt = piece | split: '" alt="' | shift | join: '" alt="' | split: '"' | first -%}
+			{%- assign rest = piece | split: '" alt="' | shift | join: '" alt="' | split: '"' | shift | join: '"' -%}
+			{%- assign url-filename = url | split: '.' | pop | join: '.' -%}
+			{%- assign url-extension = url | split: '.' | last -%}
+			{%- if url-extension == "gif" -%}
+				<noscript><img src="{{ url }}" alt={{alt}} /></noscript>
+				<img class="lazy" data-src="{{ url }}" alt={{alt}}{{ rest }}
+			{%- else -%}
+			<noscript><img 
+				srcset="{{ url-filename }}-320.{{ url-extension }} 320w,
+						{{ url-filename }}-480.{{ url-extension }} 480w,
+						{{ url-filename }}-640.{{ url-extension }} 640w,
+						{{ url-filename }}-768.{{ url-extension }} 768w,
+						{{ url-filename }}-960.{{ url-extension }} 960w"
+				sizes="(max-width:499px) 82vw,
+						(max-width:799px) 88vw,
+						(max-width:999px) 76vw,
+						64vw"  
+				src="{{ url }}" alt="{{ alt }}" /></noscript>
+						<img class="lazy" 
+				data-src="{{ url }}"
+			data-srcset="{{ url-filename }}-320.{{ url-extension }} 320w,
+						{{ url-filename }}-480.{{ url-extension }} 480w,
+						{{ url-filename }}-640.{{ url-extension }} 640w,
+						{{ url-filename }}-768.{{ url-extension }} 768w,
+						{{ url-filename }}-960.{{ url-extension }} 960w"
+			data-sizes="82vw,
+						(min-width:500px) 88vw,
+						(min-width:800px) 76vw,
+						(min-width:1000px) 64vw"
+			alt="{{ alt }}"{{ rest }}
+			{%- endif -%}
+		{%- else -%}
+			{%- assign url = piece | split: '"' | first -%}
+			{%- assign rest = piece | split: '"' | shift | join: '"' -%}
+			{%- assign url-filename = url | split: '.' |  pop | join: '.' -%}
+			{%- assign url-extension = url | split: '.' | last -%}
+			{%- if url-extension == "gif" -%}
+				<noscript><img src="{{ url }}" /></noscript>
+				<img class="lazy" data-src="{{ url }}"{{ rest }}
+			{%- else -%}
+			<noscript><img 
+				srcset="{{ url-filename }}-320.{{ url-extension }} 320w,
+						{{ url-filename }}-480.{{ url-extension }} 480w,
+						{{ url-filename }}-640.{{ url-extension }} 640w,
+						{{ url-filename }}-768.{{ url-extension }} 768w,
+						{{ url-filename }}-960.{{ url-extension }} 960w"
+				sizes="(max-width:499px) 82vw,
+						(max-width:799px) 88vw,
+						(max-width:999px) 76vw,
+						64vw"  
+				src="{{ url }}" alt="{{ alt }}" /></noscript>
+						<img class="lazy" 
+				data-src="{{ url }}"
+			data-srcset="{{ url-filename }}-320.{{ url-extension }} 320w,
+						{{ url-filename }}-480.{{ url-extension }} 480w,
+						{{ url-filename }}-640.{{ url-extension }} 640w,
+						{{ url-filename }}-768.{{ url-extension }} 768w,
+						{{ url-filename }}-960.{{ url-extension }} 960w"
+			data-sizes="82vw,
+						(min-width:500px) 88vw,
+						(min-width:800px) 76vw,
+						(min-width:1000px) 64vw"{{ rest }}
+			{%- endif -%}
+		{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
 
       </div>
     </div>
   </div>
+  <script>
+    (function(w, d){
+      var b = d.getElementsByTagName('body')[0];
+      var s = d.createElement("script");
+      var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+      s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+      s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+      w.lazyLoadOptions = {};
+      b.appendChild(s);
+  }(window, document));
+  </script>
