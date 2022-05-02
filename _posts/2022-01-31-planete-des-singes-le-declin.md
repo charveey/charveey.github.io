@@ -2,7 +2,7 @@
 layout: post
 title:  "Le Déclin de la Planète des Singes"
 subtitle: "Retour sur le succès de cette franchise emblématique de la fin des années 60 qui a lentement sombré dans l'oubli..."
-background: '/img/bg/bg-apes.jpg'
+background: '/img/bg/bg-apes.webp'
 date:   2022-01-24 09:03:59 +0000
 ---
 

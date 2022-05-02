@@ -2,7 +2,7 @@
 layout: post
 title:  "Interstellar : à la croisée des chemins entre le coeur et la raison"
 subtitle: "Dans cet article, je .... comment la thématique de Interstellar a faconné le cinéphile que je suis aujourd'hui."
-background: '/img/bg/bg-interstellar.jpg'
+background: '/img/bg/bg-interstellar.webp'
 date:   2021-08-04 21:37:09 +0000
 ---
 
