@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Interstellar : à la croisée des chemins entre le coeur et la raison"
-subtitle: "Dans cet article, je .... comment la thématique de Interstellar a faconné le cinéphile que je suis aujourd'hui."
+title:  "Interstellar : entre coeur et raison."
+subtitle: "Écouter passionnément son cœur ou se fier prudemment à sa raison ? Decouvrez comment la solution proposée par Interstellar a faconné ma conception du cinéma..."
 background: '/img/bg/bg-interstellar.webp'
 date:   2021-08-04 21:37:09 +0000
 ---
@@ -24,7 +24,7 @@ De toutes les scènes émotionnelles du film, c'est probablement celle qui me to
 
 > *“De toutes les choses que nous percevons seul l'amour trancende le temps et l'espace.”*
 
-Interstellar est un film où l'amour sauve la mise. Cela peut sembler paradoxal, car la science et les sentiments sont souvents considérés comme binaires. Cependant, le film de Nolan m'a montré que pour sauvegarder l'avenir de l'humanité, la logique et l'émotion doivent travailler ensemble. Le personnage d'Anne Hathaway, le Dr Amelia Brand, déclare : "L'amour est la seule chose que nous sommes capables de percevoir et qui transcende les dimensions du temps et de l'espace, peut-être devrions-nous lui faire confiance même si nous ne pouvons pas encore le comprendre." 
+Écouter passionnément son cœur ou se fier prudemment à sa raison ? Voilà un dilemme auquel nous avons tous été confrontés. Interstellar est un film où l'amour sauve la mise. Cela peut sembler paradoxal, car la science et les sentiments sont souvents considérés comme binaires. Cependant, le film de Nolan m'a montré que pour sauvegarder l'avenir de l'humanité, la logique et l'émotion doivent travailler ensemble. Le personnage d'Anne Hathaway, le Dr Amelia Brand, déclare : "L'amour est la seule chose que nous sommes capables de percevoir et qui transcende les dimensions du temps et de l'espace, peut-être devrions-nous lui faire confiance même si nous ne pouvons pas encore le comprendre." 
 
 Derrière ce scénario ambitieux, ces notions complexes et ces grandes idées se cache une idée toute simple et la façon dont le film traite son thème central est la chose qui m'aura le plus marqué au cours de mes nombreux visionnages. 
 *De toutes les choses que nous percevons seul l'amour trancende le temps et l'espace.* _Amor Vincit Omnia_ comme disaient les Romains.
