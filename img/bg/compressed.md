@@ -1,12 +1,3 @@
 ---
-images:
-- bg-apes.jpg
-- bg-foundation.jpeg
-- bg-home.jpg
-- bg-interstellar.jpg
-- bg-about.jpg
-- bg-about.jpg
-- bg-home.jpg
-- bg-post.jpg
-- bg-contact.jpg
+images: []
 ---
