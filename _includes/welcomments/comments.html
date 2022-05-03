@@ -4,10 +4,10 @@
   {%- assign api_url = "https://welcomments.io/api" -%}
 {%- endif -%}
 
-{%- if include.website_id == "ZNB0ACmAikFMW4iSO0YWJWRYN" -%}
+{%- if include.website_id == "YOUR-WEBSITE-ID-HERE" -%}
   <div style="color: #ff0000;">
     <h1>Website id not configured!</h1>
-    <p>Please replace <code>ZNB0ACmAikFMW4iSO0YWJWRYN</code> with the website id from Welcomments console.</p>
+    <p>Please replace <code>YOUR-WEBSITE-ID-HERE</code> with the website id from Welcomments console.</p>
   </div>
 {%- endif -%}
 
@@ -23,7 +23,7 @@
   {%- if all_comments.size > 0 -%}
     <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">{{ all_comments.size }} comment{%- if all_comments.size > 1 -%}s{%- endif -%}</h3>
   {%- else -%}
-    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">No comments yet!</h3>
+    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">N'hésitez pas à commenter</h3>
   {%- endif -%}
 
   <section id="welcomments__comment-container" class="welcomments__comment-container">
