@@ -16,11 +16,6 @@ linkedin_username:
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-215637811-1 # out your google-analytics code
 
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: positron-libre
 
 # Build settings
 markdown:           kramdown

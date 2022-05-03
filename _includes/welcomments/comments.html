@@ -4,10 +4,10 @@
   {%- assign api_url = "https://welcomments.io/api" -%}
 {%- endif -%}
 
-{%- if include.website_id == "YOUR-WEBSITE-ID-HERE" -%}
+{%- if include.website_id == "ZNB0ACmAikFMW4iSO0YWJWRYN" -%}
   <div style="color: #ff0000;">
     <h1>Website id not configured!</h1>
-    <p>Please replace <code>YOUR-WEBSITE-ID-HERE</code> with the website id from Welcomments console.</p>
+    <p>Please replace <code>ZNB0ACmAikFMW4iSO0YWJWRYN</code> with the website id from Welcomments console.</p>
   </div>
 {%- endif -%}
 
@@ -75,10 +75,10 @@
     // id "welcomments__comment-count-title". It's okay if that element doesn't exist.
     commentCountTitleFactory: function (commentCount) {
       if (commentCount === 0) {
-        return "No comments yet!";
+        return "Laisser un commentaire";
       }
 
-      return commentCount === 1 ? "One comment" : `${commentCount} comments`;
+      return commentCount === 1 ? "Un commentaire" : `${commentCount} commentaires`;
     },
 
     // Builds comments dynamically when they are not part of the static HTML of the rest of
@@ -86,9 +86,9 @@
     // the resulting HTML as a child element into the correct position in an element with the
     // id "welcomments__comment-container".
     placeholderCommentFactory: function (comment) {
-      var year = new Intl.DateTimeFormat("en", {year: "numeric"}).format(comment.date);
-      var month = new Intl.DateTimeFormat("en", {month: "long"}).format(comment.date);
-      var day = new Intl.DateTimeFormat("en", {day: "2-digit"}).format(comment.date);
+      var year = new Intl.DateTimeFormat("fr", {year: "numeric"}).format(comment.date);
+      var month = new Intl.DateTimeFormat("fr", {month: "long"}).format(comment.date);
+      var day = new Intl.DateTimeFormat("fr", {day: "2-digit"}).format(comment.date);
       var avatarUrl =  comment.author.avatar_url ||
         `https://eu.ui-avatars.com/api/?background=random&name=${comment.author.name}`
 
