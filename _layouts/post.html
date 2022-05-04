@@ -110,6 +110,7 @@ layout: default
 		<hr>
         <div class="clearfix">
 		  <applause-button class="mb6"
+		  	color={{ site.accent_color | default:'rgb(0,133,161)' }}
     		url={{ post.url | absolute_url }} >
   		  </applause-button>
           {% if page.previous.url %}
