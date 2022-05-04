@@ -107,12 +107,11 @@ layout: default
 	{%- endif -%}
 {%- endfor -%}
 
-		<applause-button class="mb6"
-    		url={{ post.url | absolute_url }} >
-  		</applause-button>
 		<hr>
         <div class="clearfix">
-
+		  <applause-button class="mb6"
+    		url={{ post.url | absolute_url }} >
+  		  </applause-button>
           {% if page.previous.url %}
           <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Précédent</a>
           {% endif %}
