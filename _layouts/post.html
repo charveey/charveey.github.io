@@ -107,8 +107,10 @@ layout: default
 	{%- endif -%}
 {%- endfor -%}
 
-        <hr>
-
+		<applause-button class="mb6"
+    		url={{ post.url | absolute_url }} >
+  		</applause-button>
+		<hr>
         <div class="clearfix">
 
           {% if page.previous.url %}
