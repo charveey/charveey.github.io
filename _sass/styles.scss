@@ -8,8 +8,62 @@
   color:white;
   background-color: #131518;
   
+  .post-preview {
+    >a {
+        color: white;
+    }
+  }
   blockquote {
     color: #879099;
+  }
+  #mainNav {
+    
+    border-bottom: 1px solid $gray-200;
+    background-color: white;
+
+    .navbar-brand {
+        color: $gray-800;
+    }
+
+    .navbar-toggler {
+        color: $gray-800;
+    }
+
+    @media only screen and (min-width: 992px) {
+        .navbar-brand {
+            color: $white;
+
+            &:hover {
+                color: fade-out($white, .2);
+            }
+        }
+
+        .navbar-nav {
+            >li.nav-item {
+                >a {
+                    color: $white;
+
+                    &:hover {
+                        color: fade-out($white, .2);
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+
+        &.is-fixed {
+            /* when the user scrolls down, we hide the header right above the viewport */
+            border-bottom: 1px solid darken($white, .05);
+            background-color: fade-out($white, .1);
+
+            .navbar-brand {
+                color: $gray-900;
+
+            }
+ }
+    }
   }
   }
 }
