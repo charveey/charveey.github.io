@@ -4,7 +4,7 @@ author:             Ange Kevin Amlaman
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenue dans mon esprit, où se mèlent science-fiction, cinéma, littérature et passion.
 #baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://charveey.github.io"
+url:                https://charveey.github.io
 
 # Social Profiles
 twitter_username:   im_kveen
