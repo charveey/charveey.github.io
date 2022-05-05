@@ -28,7 +28,7 @@
         <p class="welcomments__comment-time">
           <a href="#welcomments__comment-{{ id }}" itemprop="url">
             <time datetime="{{ date_xml_schema }}" itemprop="datePublished">
-              {{- formatted_date -}}
+              {% include translated_date.html date=comment.date %}
             </time>
           </a>
         </p>
