@@ -3,6 +3,7 @@
 
 // Initial Dark mode support
 @media (prefers-color-scheme: dark) {
+  
   body {
   color:white;
   background-color: #131518;
@@ -57,8 +58,10 @@
 
             }
  }
+    }
+  }
+  }
 }
-
 
 // Welcomments CSS
 
