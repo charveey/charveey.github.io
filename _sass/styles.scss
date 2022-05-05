@@ -1,38 +1,47 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
 
+// Initial Dark mode support
+@media (prefers-color-scheme: dark) {
+  body {
+  color:white;
+  background-color:#253246
+ }
+}
+
+
 // Welcomments CSS
 
-// @media (prefers-color-scheme: dark) {
-//    .welcomments__comments-title,
-//    .welcomments__author-name,
-//    .welcomments__comment-message a,
-//     .welcomments__comment-form label {
-//         color: white !important;
-//     }
-//     .welcomments__comment-time a time,
-//     .welcomments__comment-form p {
-//         color: #9ca3af !important;
-//     }
-//     .welcomments__comment-message {
-//         color: #d1d5db !important;
-//     }
-//     .welcomments__comment-reply-link,
-//     .welcomments__comment-form textarea,
-//     .welcomments__comment-form input {
-//         background-color: #253246 !important;
-//     }
-//     .welcomments__submit-button {
-//         background-color: #2f4059 !important;
-//     }
-//     .welcomments__comment {
-//         border-color: #334052 !important;
-//     }
-//     .welcomments__comment-form textarea,
-//     .welcomments__comment-form input {
-//         border-color: #334052 !important;
-//     }
-// }
+@media (prefers-color-scheme: dark) {
+   .welcomments__comments-title,
+   .welcomments__author-name,
+   .welcomments__comment-message a,
+    .welcomments__comment-form label {
+        color: white !important;
+    }
+    .welcomments__comment-time a time,
+    .welcomments__comment-form p {
+        color: #9ca3af !important;
+    }
+    .welcomments__comment-message {
+        color: #d1d5db !important;
+    }
+    .welcomments__comment-reply-link,
+    .welcomments__comment-form textarea,
+    .welcomments__comment-form input {
+        background-color: #253246 !important;
+    }
+    .welcomments__submit-button {
+        background-color: #2f4059 !important;
+    }
+    .welcomments__comment {
+        border-color: #334052 !important;
+    }
+    .welcomments__comment-form textarea,
+    .welcomments__comment-form input {
+        border-color: #334052 !important;
+    }
+}
 @media (prefers-color-scheme: light) {
     .welcomments__submit-button {
         background-color: $primary !important;
