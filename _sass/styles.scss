@@ -70,9 +70,6 @@
 
 // Welcomments CSS
 
-.welcomments__optional-notice {
-    color: #a12f2f;
-}
 @media (prefers-color-scheme: dark) {
    .welcomments__comments-title,
    .welcomments__author-name,
@@ -102,11 +99,17 @@
     .welcomments__comment-form input {
         border-color: #334052 !important;
     }
+    .welcomments__optional-notice {
+        color: #a12f2f;
+    }
     
 }
 @media (prefers-color-scheme: light) {
     .welcomments__submit-button {
         background-color: $primary !important;
+    }
+    .welcomments__optional-notice {
+        color: #a12f2f;
     }
 
 }
