@@ -109,7 +109,7 @@ layout: default
 
 		<hr>
         <div class="clearfix">
-		  <applause-button color='rgb(0,133,161)' url="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"/>
+		  <applause-button color="{{'rgb(0,133,161)'}}" url="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"/>
           {% if page.previous.url %}
           <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Précédent</a>
           {% endif %}
