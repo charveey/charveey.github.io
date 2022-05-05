@@ -19,7 +19,7 @@ google_analytics:   UA-215637811-1 # out your google-analytics code
 
 # Localization
 date_format: "%d %B %Y"
-lang: fr
+lang: "fr"
 
 # Build settings
 markdown:           kramdown
