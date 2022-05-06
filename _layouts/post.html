@@ -20,7 +20,7 @@ layout: default
             <span class="meta">Publié par
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
               le {% include translated_date.html date=page.date %} &middot; {% include read_time.html
-              content=page.content %} {% if post.applause_button %}{{ ' ' }} <span class="clap" data-url="{{ post.url | absolute_url }}"></span>{% endif %}
+              content=page.content %}<span class="clap" data-url="{{ post.url | absolute_url }}"></span>
             </span>
           </div>
         </div>
