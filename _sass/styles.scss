@@ -65,7 +65,7 @@
  }
     }
   }
-  .clap {
+  .clap-count {
     .flat {
       fill: #131518;
     }
@@ -131,7 +131,7 @@ applause-button {
     }
 }
 
-.clap {
+.clap-count {
     @extend h2;
     color: $primary;
     display: none;

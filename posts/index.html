@@ -9,7 +9,7 @@ background: '/img/bg/bg-post.webp'
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}
-      <span class="clap" data-url="{{ post.url | absolute_url }}"></span>
+      <span class="clap-count" data-url="{{ post.url | absolute_url }}"></span>
     </h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
