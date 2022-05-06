@@ -5,7 +5,7 @@
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 
 <script>
-  document.getElementById('_pushState').addEventListener('hy-push-state-load', function() {
+  function() {
     var elements = Array.from(document.getElementsByClassName('clap-count'));
     var urls = elements.map(function (el) {
       return el.getAttribute("data-url");
