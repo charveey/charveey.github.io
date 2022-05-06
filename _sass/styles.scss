@@ -67,7 +67,7 @@
   }
   .clap-count {
     .flat {
-      fill: orange;
+      fill: #131518;
     }
 }
   }
@@ -133,7 +133,7 @@ applause-button {
 
 .clap-count {
     @extend h2;
-    color: red;
+    color: $primary;
     display: none;
   
     svg {
@@ -143,11 +143,11 @@ applause-button {
     }
   
     .flat {
-      fill: orange;
+      fill: white;
     }
   
     .outline {
-      fill: red;
+      fill: $primary;
     }
   }
   
