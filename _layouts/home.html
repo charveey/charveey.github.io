@@ -37,7 +37,7 @@ layout: default
             <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid">
           {% endif %}
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
+            <h2 class="post-title">{{ post.title }} {% if post.applause_button %}<span class="clap-count" data-url="{{ post.url | absolute_url }}"></span>{% endif %}</h2>
             {% if post.subtitle %}
             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
             {% else %}
