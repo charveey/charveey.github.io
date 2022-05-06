@@ -37,10 +37,10 @@ defaults:
     values:
       sitemap:         true
   
-  # You can use the following to enable comments on all posts.
+  # You can use the following to enable claps on all posts.
   - 
     scope:
       type:            posts
     values:
       # https://applause-button.com/
-      applause_button:       true
+      #applause_button:       true
