@@ -65,6 +65,11 @@
  }
     }
   }
+  .clap-count {
+    .flat {
+      fill: #131518;
+    }
+}
   }
 }
 
@@ -125,6 +130,27 @@ applause-button {
       color: inherit;
     }
 }
+
+.clap-count {
+    @extend h2;
+    color: $primary;
+    display: none;
+  
+    svg {
+      height: 1em;
+      vertical-align: middle;
+      width: 1em;
+    }
+  
+    .flat {
+      fill: white;
+    }
+  
+    .outline {
+      fill: $primary;
+    }
+  }
+  
 
 // Welcomments likes styling
 
