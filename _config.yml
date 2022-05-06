@@ -43,4 +43,4 @@ defaults:
       type:            posts
     values:
       # https://applause-button.com/
-      #applause_button:       true
+      applause_button:       true
