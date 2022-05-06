@@ -5,7 +5,7 @@
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 
 <script>
-  function() {
+  (function () {
     var elements = Array.from(document.getElementsByClassName('clap-count'));
     var urls = elements.map(function (el) {
       return el.getAttribute("data-url");
@@ -46,7 +46,7 @@
       });
       request.send(JSON.stringify(urls));
     }
-  });
+  })();
 </script>
 
 
