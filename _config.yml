@@ -33,9 +33,9 @@ plugins:
 defaults:
   -
     scope:
-      path:            "img/**/*.html"
+      path:            "img/**"
     values:
-      sitemap:         true
+      sitemap:         false
   
   # You can use the following to enable claps on all posts.
   - 
