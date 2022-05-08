@@ -8,7 +8,7 @@ background: '/img/bg/bg-post.webp'
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }} {% if post.applause_button %}<span class="clap-count" data-url="{{ post.url | absolute_url }}"></span>{% endif %}</h2>
+    <h2 class="post-title">{{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% else %}
@@ -21,7 +21,7 @@ background: '/img/bg/bg-post.webp'
     {% else %}
     {{ site.author }}
     {% endif %}
-    le {% include translated_date.html date=post.date %} &middot; {% include read_time.html content=post.content %}
+    le {% include translated_date.html date=post.date %} &middot; {% include read_time.html content=post.content %} {% if post.applause_button %}<span class="clap-count" data-url="{{ post.url | absolute_url }}"></span>{% endif %}
   </p>
 </article>
 
