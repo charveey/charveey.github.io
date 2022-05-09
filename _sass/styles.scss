@@ -2,37 +2,39 @@
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
 
 // Initial Dark mode support
+
 @media (prefers-color-scheme: dark) {
-  
+   
   body {
-  color:white;
-  background-color: #131518;
+    color:white;
+    background-color: #131518;
+    
+    .masthead {
+      background-color: #040404;
+    }
+    
+    a {
+      color: white;
+    }
+    .post-preview {
+      >a {
+          color: white;
+      }
+    }
+    blockquote {
+      color: #879099;
+    }
+    .clap-count {
+      .flat {
+        fill: #131518;
+      }
+  }
+  .fa-inverse {
+    color: #131518;
+  }
+    }  
   
-  a {
-    color: white;
-  }
-  .post-preview {
-    >a {
-        color: white;
-    }
-  }
-  blockquote {
-    color: #879099;
-  }
-  .clap-count {
-    .flat {
-      fill: #131518;
-    }
-}
-.fa-inverse {
-	color: #131518;
-}
-  }
-}
-
 // Welcomments CSS
-
-@media (prefers-color-scheme: dark) {
    .welcomments__comments-title,
    .welcomments__author-name,
    .welcomments__comment-message a,
@@ -64,6 +66,14 @@
     
 }
 @media (prefers-color-scheme: light) {
+  body {
+    .masthead{
+      background-color: #ffffff;
+      .overlay{
+        opacity: 0.5;
+      }
+    }
+  }
     .welcomments__submit-button {
         background-color: $primary !important;
     }
@@ -101,6 +111,18 @@ applause-button {
       fill: $primary;
     }
   }
+
+// Branding Typography  
+.navbar-brand {
+  font-family: "Iceberg";
+  font-weight: 800;
+}
+.page-heading {
+  h1 {
+    font-family: "Iceberg";
+    font-weight: 800;
+  }
+}
   
 
 // Welcomments likes styling
