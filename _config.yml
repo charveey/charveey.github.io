@@ -45,3 +45,10 @@ defaults:
     values:
       # https://applause-button.com/
       applause_button:       true
+
+  # SEO tags
+  twitter:
+    username: im_kveen
+    card: summary
+  tagline: De la science-fiction, du cinéma & des livres le tout avec passion.
+  logo: "/img/bg/logo.svg"
