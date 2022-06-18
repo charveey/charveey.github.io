@@ -92,6 +92,11 @@
       var avatarUrl =  comment.author.avatar_url ||
         `https://eu.ui-avatars.com/api/?background=random&name=${comment.author.name}`
 
+      //If the website owner's comments, use the website logo instead
+      if (comment.author.name === 'Ange Kevin A.') {
+        var avatarUrl ='/favicon.png" | relative_url';
+      }
+
       return `{%- include welcomments/template.html
         id                = "${comment.id}"
         element_id        = "welcomments__comment-${comment.id}"
