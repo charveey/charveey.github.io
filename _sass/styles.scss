@@ -43,7 +43,7 @@
     }
     .welcomments__comment-time a time,
     .welcomments__comment-form p {
-        color: #9ca3af !important;
+        color: rgba(55,65,81,) !important;
     }
     .welcomments__comment-message {
         color: #d1d5db !important;
@@ -52,6 +52,7 @@
     .welcomments__comment-form textarea,
     .welcomments__comment-form input {
         background-color: #20252d  !important;
+        color: #b6bdc7
     }
     .welcomments__submit-button {
         background-color: #2f4059 !important;
@@ -124,36 +125,3 @@ applause-button {
   }
 }
   
-
-// Welcomments likes styling
-
-#like-button-container {
-  width: 6rem;
-  height: 3rem;
-}
-#like-button-container .subtitle {
-  color: #4b5563;
-  text-align: center;
-  font-size: 0.75rem;
-  font-weight: 500;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
-}
-#welcomments__like-button {
-  color: #111827;
-  text-align: center;
-  font-weight: 700;
-  cursor: pointer;
-  font-size: 1rem;
-  user-select: none;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
-}
-@media screen and (min-width: 832px) {
-  #like-button-container {
-    position: fixed;
-    right: calc(950px + ((100% - 948px) / 2));
-    top: 50px;
-    transform: translate(50%, 0%);
-  }
-}
