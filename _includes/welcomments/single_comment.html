@@ -19,7 +19,11 @@
 {%- capture date_xml_schema -%}{{ comment.date | date_to_xmlschema }}{%- endcapture -%}
 {%- capture comment_message -%}{{ comment.message | markdownify }}{%- endcapture -%}
 
-{% if comment.author.avatar_url %}
+{% if comment.author.avatar_url and comment.author.name == 'Ange Kevin A.' %}
+  {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
+{% eslif comment.author.name == 'Ange Kevin A.' %}
+  {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
+{% elsif comment.author.avatar_url %}
   {% capture author_avatar_url %}{{ comment.author.avatar_url }}{% endcapture %}
 {% else %}
   {% capture author_avatar_url %}https://eu.ui-avatars.com/api/?background=random&name={{ comment.author.name }}{% endcapture %}
@@ -36,6 +40,7 @@
   author_website    = comment.author.website
   author_avatar_url = author_avatar_url
   message           = comment_message
+  icon              = certification_icon
   api_url           = include.api_url
   website_id        = include.website_id -%}
 
