@@ -21,7 +21,7 @@
 
 {% if comment.author.avatar_url and comment.author.name == 'Ange Kevin A.' %}
   {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
-{% eslif comment.author.name == 'Ange Kevin A.' %}
+{% elsif comment.author.name == 'Ange Kevin A.' %}
   {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
 {% elsif comment.author.avatar_url %}
   {% capture author_avatar_url %}{{ comment.author.avatar_url }}{% endcapture %}
