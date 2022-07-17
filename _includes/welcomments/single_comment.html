@@ -19,12 +19,10 @@
 {%- capture date_xml_schema -%}{{ comment.date | date_to_xmlschema }}{%- endcapture -%}
 {%- capture comment_message -%}{{ comment.message | markdownify }}{%- endcapture -%}
 
-{% if comment.author.avatar_url and comment.author.name == 'Ange Kevin A.' %}
+{% if comment.author.avatar_url and comment.author.name == 'Ange Kevin A.' and comment.author.website == 'https://plumequantique.ci' %}
   {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
-  {% capture author_name %}{{ comment.author.name }}{{ certification_icon }}{% endcapture %}
-{% elsif comment.author.name == 'Ange Kevin A.' %}
+{% elsif comment.author.name == 'Ange Kevin A.' and comment.author.website == 'https://plumequantique.ci' %}
   {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
-  {% capture author_name %}{{ comment.author.name }}{{ certification_icon }}{% endcapture %}
 {% elsif comment.author.avatar_url %}
   {% capture author_avatar_url %}{{ comment.author.avatar_url }}{% endcapture %}
 {% else %}
