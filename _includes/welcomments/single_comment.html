@@ -23,6 +23,7 @@
   {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
 {% elsif comment.author.name == 'Ange Kevin A.' and comment.author.website == 'https://plumequantique.ci' %}
   {% capture author_avatar_url %}https://www.gravatar.com/avatar/925531918548ff11a57a464daae45aa6{% endcapture %}
+  {% capture certification_icon %} {{ '/img/bg/certicon.svg' | prepend: site.baseurl }} {% endcapture%}
 {% elsif comment.author.avatar_url %}
   {% capture author_avatar_url %}{{ comment.author.avatar_url }}{% endcapture %}
 {% else %}
