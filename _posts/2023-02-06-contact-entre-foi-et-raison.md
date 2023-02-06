@@ -3,7 +3,7 @@ layout: post
 title:  "Contact: à la recherche de la vérité entre foi et science"
 subtitle: "Retour sur la célèbre adaption du roman éponyme de Carl Sagan où s'entremèlent"
 background: '/img/bg/bg-contact.jpg'
-date:   2023-02-06 10:23:59 +0000
+date:   2023-02-07 10:23:59 +0000
 ---
 
 Il y a quelques semaines de cela, l'algorithme de YouTube me recommandait une scène extraite du film ***Contact*** de Robert Zemeckis dans laquelle Palm Joss, un érudit religieux (interprété par Matthew McConaughey) défendait la foi auprès d’Ellie Arroway (interprétée par Jodie Foster) qui refusait d'accorder du crédit à autre chose qu'à la science. Ce fut pour moi l'occasion de redécouvrir ce film qui avait marqué mon jeune esprit à l'époque en devenant mon premier gros coup de cœur cinématographique.
