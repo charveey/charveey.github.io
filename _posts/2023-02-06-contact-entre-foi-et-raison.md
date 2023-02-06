@@ -8,7 +8,7 @@ date:   2023-02-06 10:23:59 +0000
 
 Il y a quelques semaines de cela, l'algorithme de YouTube me recommandait une scène extraite du film ***Contact*** de Robert Zemeckis dans laquelle Palm Joss, un érudit religieux (interprété par Matthew McConaughey) défendait la foi auprès d’Ellie Arroway (interprétée par Jodie Foster) qui refusait d'accorder du crédit à autre chose qu'à la science. Ce fut pour moi l'occasion de redécouvrir ce film qui avait marqué mon jeune esprit à l'époque en devenant mon premier gros coup de cœur cinématographique.
 
-![fgdgghf]({{ site.baseimg }}/img/posts/contact01.webp)
+![fgdgghf]({{ site.baseimg }}/img/posts/contact01.jpg)
 
 Si ***Contact*** a eu un tel impact sur moi c'est sans doute grâce à la façon captivante dont le film présente la lutte éternelle entre la science et la religion, thématique qui m'a toujours fasciné. Du peu dont je me souvenais, Zemeckis en avait fait l'élément central de l'intrigue du film en personnifiant les deux camps. D’un côté, la science qui s’appuie sur des faits empiriques et vérifiables pour expliquer le monde qui nous entoure : Arroway défend que seule la science peut apporter de vraies réponses. De l’autre, la religion qui demande à faire un acte de foi, pour croire en une divinité, un miracle ou une expérience mystique :  Joss Palmer insiste sur l’importance de cette foi religieuse dans la recherche de la vérité. Chacun présentant des arguments intéressants dans la balance et laissant ainsi le choix à l'audience de tirer ses propres conclusions. Cette interprétation, sans être totalement fausse ne reflète que ce que le film a à offrir en surface. Le revoir hier m'a permis de me rendre compte qu'en réalité ***Contact*** se veut être un voyage subtil à la recherche de la foi.
 
