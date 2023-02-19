@@ -16,7 +16,7 @@ Si ***Contact*** a eu un tel impact sur moi c'est sans doute grâce à la façon
 
 D'emblée la protagoniste est présentée comme une personne uniquement guidée par les faits et des données empiriques, réfutant l'idée même de l'existence d'un Être Suprême. Lors d'un échange avec Palmer, elle lui fait savoir qu'elle ne croit ni en Dieu ni au surnaturel. Arroway critique les croyances de Palmer au moyen du principe du « Rasoir d’Occam[^1] » qui stipule que de deux explications d’un même phénomène, la plus simple est nécessairement la bonne : _Dieu existe mais refuse de donner toute preuve de son existence_, ou bien _Dieu n'existe pas; nous l'avons créé en réponse à nos problèmes existentiels_. Pour elle, cette dernière explication est la plus simple et, par conséquent, celle qui reflète la vérité. Palmer retorque alors en lui faisant remarquer que la notion de preuve ne peut être absolue, qu'il y a des vérités qui ne peuvent être prouvées objectivement et ne se fondent que sur notre conviction intime. Comment Ellie pourrait-elle prouver, par exemple, l'amour qu'elle avait pour son père?
 
-Cette joute intellectuelle entre la scientifique et l'homme de foi retranscrit de manière simple et efficace le perpétuel débat sur la confrontation entre science et spiritualité.
+Cette joute intellectuelle entre la scientifique et l'homme de foi retranscrit de manière simple et efficace le perpétuel débat sur la confrontation entre science et religion.
 
 ![Palmer Joss (Matthew McConaughey) & Eleanor Arroway (Jodie Foster)]({{ site.baseimg }}/img/posts/contact02.png)
 
