@@ -3,7 +3,7 @@ layout: post
 title:  "Quand l'IA devient l'objet de nos affections : réflexions sur la relation Homme-Machine dans Blade Runner 2049 et Her."
 subtitle: "Notre relation avec l'IA évolue rapidement, et des films de science-fiction comme Her et Blade Runner 2049 nous permettent d'explorer les implications de cette dynamique en évolution en offrant un aperçu d'un monde où l'intelligence artificielle brouille les frontières entre l'homme et la machine."
 background: '/img/bg/bg-ia.jpg'
-date:   14-05-2023 19:42:13 +0000
+date:   2023-05-14 19:42:13 +0000
 ---
   
 Lorsque je parle de science-fiction à mon entourage, il arrive fréquemment que les gens la perçoivent comme un genre détaché de la réalité, peuplé d'extraterrestres, de pistolets laser, de voyages interstellaires. Pourtant, bien que certains récits de science-fiction incorporent ces éléments, ils servent souvent de prétexte pour aborder des thèmes et des idées complexes qui sont pertinents pour notre monde. En fait, la science-fiction peut s'inspirer de la réalité et, inversement, inspirer la réalité. 
