@@ -1,3 +1,4 @@
 ---
-images: []
+images:
+- bg-ia.jpg
 ---
